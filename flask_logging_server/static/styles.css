@@ -119,6 +119,34 @@ footer {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+#logs-table th {
+    padding: 10px 15px;
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+    background-color: #f4f4f4;
+    z-index: 1;
+    border-right: 1px solid #ddd;
+    font-weight: bold;
+    min-width: fit-content;
+}
+
+#logs-table {
+    table-layout: auto;
+    min-width: 100%;
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+#logs-container {
+    overflow-x: auto; 
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 1.5em;
